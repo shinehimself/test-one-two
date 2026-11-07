@@ -1,0 +1,1626 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadaqah Africa Charity Organization | Donate $10 / €10 Today</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Plus Jakarta Sans & Playfair Display -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;0,800;1,600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['"Playfair Display"', 'serif'],
+                    },
+                    colors: {
+                        emerald: {
+                            850: '#165B1E',
+                            900: '#114A18',
+                            950: '#0A2E0F',
+                        },
+                        gold: {
+                            400: '#F2AE2E',
+                            500: '#E59A14',
+                            600: '#C47F0A',
+                        },
+                        brandgreen: '#165B1E',
+                        brandgold: '#E59A14',
+                        brandblack: '#0E0E0E',
+                        cream: '#FAF7F0',
+                        sand: '#F2ECE1'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .bg-parchment-texture {
+            background-color: #FAF7F0;
+            background-image:
+                radial-gradient(at 15% 15%, rgba(22, 91, 30, 0.055) 0px, transparent 50%),
+                radial-gradient(at 85% 30%, rgba(229, 154, 20, 0.075) 0px, transparent 50%),
+                radial-gradient(rgba(22, 91, 30, 0.07) 0.85px, transparent 0.85px);
+            background-size: 100% 100%, 100% 100%, 22px 22px;
+        }
+        .bg-islamic-lattice {
+            background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23E59A14' stroke-opacity='0.14' stroke-width='1'%3E%3Cpath d='M30 0L60 30L30 60L0 30Z'/%3E%3Ccircle cx='30' cy='30' r='11'/%3E%3Cpath d='M0 0L60 60M60 0L0 60' stroke-opacity='0.06'/%3E%3C/g%3E%3C/svg%3E");
+        }
+        .bg-logo-wallpaper {
+            background-image: url("data:image/svg+xml,%3Csvg width='180' height='180' viewBox='0 0 220 215' xmlns='http://www.w3.org/2000/svg'%3E%3Cg opacity='0.055'%3E%3Cpath fill='%23165B1E' d='M68 38 L88 41 L92 48 C96 76 96 108 87 136 L83 125 L79 112 L72 103 L54 103 L42 97 L36 81 L32 69 L37 64 L35 58 L51 44 Z'/%3E%3Cpath fill='%23165B1E' d='M87 146 C113 145 137 132 154 114 L152 135 L144 147 L138 148 L124 167 L111 176 L101 182 L94 184 L92 162 Z'/%3E%3Ccircle cx='115' cy='43' r='11.5' fill='%230E0E0E'/%3E%3Cpath fill='%230E0E0E' d='M85 26 C97 44 103 73 99 107 C97 122 93 132 88 139 C105 131 121 112 128 86 C133 68 134 52 132 42 L127 42 C123 53 111 55 103 44 C98 37 92 31 85 26 Z'/%3E%3Ccircle cx='168' cy='59' r='14.5' fill='%23E59A14'/%3E%3Cpath fill='%23E59A14' d='M135 42 C143 66 141 96 123 118 C113 130 101 138 90 142 C115 142 141 128 160 105 C171 92 178 80 181 74 C169 79 156 75 148 63 C143 56 139 49 135 42 Z'/%3E%3C/g%3E%3C/svg%3E");
+            background-size: 180px 180px;
+        }
+        .layered-card {
+            box-shadow: 0 1px 2px rgba(10, 46, 15, 0.05), 0 10px 28px -8px rgba(10, 46, 15, 0.09);
+            transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.28s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .layered-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 4px 10px rgba(10, 46, 15, 0.06), 0 18px 36px -10px rgba(10, 46, 15, 0.14);
+        }
+    </style>
+</head>
+<body class="bg-parchment-texture text-slate-800 font-sans antialiased selection:bg-gold-500 selection:text-emerald-950 relative">
+
+    <!-- Floating WhatsApp Chat Widget -->
+    <aside aria-label="Customer Support" class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
+        <a href="https://wa.me/256794829147?text=Assalamu%20Alaikum%20Sadaqah%20Africa%2C%20I%20would%20like%20to%20inquire%20about%20making%20a%20donation." target="_blank" rel="noopener noreferrer" class="group bg-emerald-600 hover:bg-emerald-500 text-white p-4 rounded-full shadow-2xl flex items-center justify-center transition-all transform hover:scale-105" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp text-2xl"></i>
+            <span class="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs group-hover:ml-2 transition-all duration-300 ease-in-out text-sm font-bold">Chat With Us</span>
+        </a>
+    </aside>
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-emerald-950 text-emerald-100 text-xs sm:text-sm py-2 px-4 text-center font-medium border-b border-emerald-900">
+        <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-center gap-4">
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-earth-africa text-gold-400"></i> Empowering Vulnerable Communities Across Africa</span>
+            <span class="hidden sm:inline text-gold-400">•</span>
+            <span class="flex items-center gap-1.5"><i class="fa-solid fa-hand-holding-heart text-gold-400"></i> Minimum Donation: $10 / €10</span>
+            <span class="hidden sm:inline text-gold-400">•</span>
+            <a href="https://wa.me/256794829147" target="_blank" rel="noopener noreferrer" class="hover:text-gold-400 underline font-semibold transition-colors">+256 794 829 147</a>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-40 bg-cream/95 backdrop-blur-md border-b border-amber-200/60 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center gap-3">
+                <div class="w-11 h-11 rounded-2xl bg-gradient-to-br from-emerald-900 to-emerald-950 flex items-center justify-center p-1.5 shadow-md border border-gold-400/40">
+                    <svg viewBox="0 0 220 215" class="w-full h-full" alt="Sadaqah Africa Logo">
+                        <path fill="#165B1E" d="M68 38 L88 41 L92 48 C96 76 96 108 87 136 L83 125 L79 112 L72 103 L54 103 L42 97 L36 81 L32 69 L37 64 L35 58 L51 44 Z"/>
+                        <path fill="#165B1E" d="M87 146 C113 145 137 132 154 114 L152 135 L144 147 L138 148 L124 167 L111 176 L101 182 L94 184 L92 162 Z"/>
+                        <circle cx="115" cy="43" r="11.5" fill="#0E0E0E"/>
+                        <path fill="#0E0E0E" d="M85 26 C97 44 103 73 99 107 C97 122 93 132 88 139 C105 131 121 112 128 86 C133 68 134 52 132 42 L127 42 C123 53 111 55 103 44 C98 37 92 31 85 26 Z"/>
+                        <circle cx="168" cy="59" r="14.5" fill="#E59A14"/>
+                        <path fill="#E59A14" d="M135 42 C143 66 141 96 123 118 C113 130 101 138 90 142 C115 142 141 128 160 105 C171 92 178 80 181 74 C169 79 156 75 148 63 C143 56 139 49 135 42 Z"/>
+                    </svg>
+                </div>
+                <div>
+                    <span class="font-display font-black text-lg sm:text-xl tracking-tight text-emerald-950 block leading-none">SADAQAH AFRICA</span>
+                    <span class="text-[0.68rem] font-bold uppercase tracking-widest text-gold-600 block mt-0.5">Charity Organization</span>
+                </div>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden lg:flex items-center gap-6 text-sm font-semibold text-slate-700">
+                <a href="#programs" class="hover:text-emerald-800 transition-colors">Programs</a>
+                <a href="#donate" class="hover:text-emerald-800 transition-colors">Donate</a>
+                <a href="#vision" class="hover:text-emerald-800 transition-colors">Vision</a>
+                <a href="#growth" class="hover:text-emerald-800 transition-colors">Impact</a>
+                <a href="#request-aid" class="hover:text-emerald-800 transition-colors">Request Aid</a>
+                <button onclick="toggleAdminModal()" class="inline-flex items-center gap-1.5 text-gold-600 bg-emerald-950 hover:bg-emerald-900 px-3 py-1.5 rounded-xl border border-gold-400/50 transition-colors font-bold text-xs">
+                    <i class="fa-solid fa-lock text-gold-400"></i>
+                    <span>Admin Panel</span>
+                </button>
+                <a href="https://wa.me/256794829147?text=Assalamu%20Alaikum%20Sadaqah%20Africa%2C%20I%20would%20like%20to%20connect%20with%20your%20team." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-emerald-800 bg-emerald-50 hover:bg-emerald-100 px-3 py-1.5 rounded-xl border border-emerald-200 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-emerald-600 text-base"></i>
+                    <span>+256 794 829 147</span>
+                </a>
+                <a href="#donate" class="px-4 py-2 rounded-xl bg-emerald-900 text-white font-semibold hover:bg-emerald-850 shadow-md transition-all">
+                    Donate
+                </a>
+            </nav>
+
+            <!-- Mobile Menu Button -->
+            <div class="flex items-center gap-2 lg:hidden">
+                <button onclick="toggleAdminModal()" class="p-2 rounded-xl bg-emerald-950 text-gold-400 text-xs font-bold border border-gold-400/40">
+                    <i class="fa-solid fa-lock"></i> Admin
+                </button>
+                <a href="#donate" class="px-3 py-2 rounded-xl bg-emerald-900 text-white text-xs font-bold shadow">
+                    Donate
+                </a>
+                <button id="mobile-menu-btn" aria-label="Toggle Menu" class="p-2.5 rounded-xl text-emerald-900 hover:bg-emerald-50 transition-colors">
+                    <i class="fa-solid fa-bars text-xl"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden fixed inset-0 z-50 bg-emerald-950/80 backdrop-blur-sm lg:hidden">
+        <div class="absolute right-0 top-0 bottom-0 w-80 bg-cream p-6 flex flex-col justify-between shadow-2xl">
+            <div class="space-y-6">
+                <div class="flex items-center justify-between border-b border-amber-200 pb-4">
+                    <span class="font-display font-extrabold text-emerald-950 text-base">Menu</span>
+                    <button id="mobile-menu-close" aria-label="Close Menu" class="p-2 text-slate-700 hover:text-red-600">
+                        <i class="fa-solid fa-xmark text-xl"></i>
+                    </button>
+                </div>
+                <nav class="flex flex-col gap-4 font-semibold text-slate-800 text-base">
+                    <a href="#programs" class="mobile-nav-link hover:text-emerald-800">Programs &amp; Campaigns</a>
+                    <a href="#donate" class="mobile-nav-link hover:text-emerald-800">Donate Portal</a>
+                    <a href="#vision" class="mobile-nav-link hover:text-emerald-800">Collaboration &amp; Volunteers</a>
+                    <a href="#growth" class="mobile-nav-link hover:text-emerald-800">Growth &amp; Volumes (2022-2026)</a>
+                    <a href="#request-aid" class="mobile-nav-link hover:text-emerald-800">Request Aid (Tally Form)</a>
+                </nav>
+            </div>
+            <div class="space-y-3 pt-4 border-t border-amber-200 text-xs">
+                <a href="https://wa.me/256794829147" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-emerald-900 font-bold p-2.5 rounded-xl bg-emerald-100/70">
+                    <i class="fa-brands fa-whatsapp text-emerald-600 text-base"></i> WhatsApp: +256 794 829 147
+                </a>
+                <a href="https://wa.me/256784888580" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-emerald-900 font-bold p-2.5 rounded-xl bg-gold-500/20">
+                    <i class="fa-brands fa-whatsapp text-gold-600 text-base"></i> CEO Direct: +256 784 888 580
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative overflow-hidden bg-gradient-to-br from-[#0A2E0F] via-[#114A18] to-[#165B1E] text-white pt-14 pb-24 lg:pt-20 lg:pb-32">
+        <div class="absolute inset-0 bg-islamic-lattice pointer-events-none"></div>
+        <div aria-hidden="true" class="absolute -right-12 sm:right-6 top-6 lg:top-8 pointer-events-none select-none">
+            <svg viewBox="0 0 220 215" class="w-[340px] sm:w-[460px] lg:w-[560px] h-auto opacity-[0.11] rotate-6">
+                <path fill="#1E7B28" d="M68 38 L88 41 L92 48 C96 76 96 108 87 136 L83 125 L79 112 L72 103 L54 103 L42 97 L36 81 L32 69 L37 64 L35 58 L51 44 Z"/>
+                <path fill="#1E7B28" d="M87 146 C113 145 137 132 154 114 L152 135 L144 147 L138 148 L124 167 L111 176 L101 182 L94 184 L92 162 Z"/>
+                <circle cx="115" cy="43" r="11.5" fill="#FFFFFF"/>
+                <path fill="#FFFFFF" d="M85 26 C97 44 103 73 99 107 C97 122 93 132 88 139 C105 131 121 112 128 86 C133 68 134 52 132 42 L127 42 C123 53 111 55 103 44 C98 37 92 31 85 26 Z"/>
+                <circle cx="168" cy="59" r="14.5" fill="#E59A14"/>
+                <path fill="#E59A14" d="M135 42 C143 66 141 96 123 118 C113 130 101 138 90 142 C115 142 141 128 160 105 C171 92 178 80 181 74 C169 79 156 75 148 63 C143 56 139 49 135 42 Z"/>
+            </svg>
+        </div>
+        <div class="absolute -top-24 -right-20 w-[28rem] h-[28rem] bg-gold-500/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/3 -left-24 w-96 h-96 bg-emerald-400/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 inset-x-0 h-16 bg-gradient-to-t from-cream to-transparent pointer-events-none"></div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid lg:grid-cols-12 gap-12 items-center">
+                <!-- Left Hero Content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-emerald-900/90 border border-gold-400/50 text-gold-400 text-xs sm:text-sm font-semibold tracking-wide shadow-sm">
+                        <span class="w-2 h-2 rounded-full bg-gold-400 animate-pulse"></span>
+                        <span>COLLABORATIVE IMPACT • THE $10 / €10 SADAQAH MOVEMENT</span>
+                    </div>
+
+                    <h1 class="font-display text-3xl sm:text-5xl lg:text-[3.4rem] font-extrabold tracking-tight leading-[1.12]">
+                        Every Step in the Right Direction Matters. <span class="font-serif italic text-gold-400 font-bold">Together, We Build a Brighter, More Equitable World.</span>
+                    </h1>
+
+                    <p class="text-base sm:text-lg text-emerald-50/90 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                        Partnering with local communities, non-profits, and dedicated volunteers, we mitigate one urgent challenge at a time—delivering <strong>clean water boreholes, sickle cell operations, food security, orphan sponsorships, Madrasa support, mosque construction, Qurbani/Eid sacrifices, women's sanitary pad drives, and safe shelter</strong> through our <strong>$10 / €10 Campaign</strong>.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-3.5 pt-2">
+                        <a href="#donate" onclick="quickSelectTenDollar()" class="w-full sm:w-auto px-7 py-4 rounded-2xl bg-gold-500 hover:bg-gold-400 text-emerald-950 font-extrabold text-sm sm:text-base shadow-xl shadow-black/25 transition-all transform hover:-translate-y-0.5 flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-heart"></i>
+                            <span>Donate Now ($10 / €10 Min)</span>
+                        </a>
+                        <a href="#vision" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-emerald-800/85 hover:bg-emerald-800 border border-gold-400/40 text-white font-bold text-sm sm:text-base transition-all flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-handshake-angle text-gold-400"></i>
+                            <span>Partner or Volunteer</span>
+                        </a>
+                        <a href="#request-aid" class="w-full sm:w-auto px-6 py-4 rounded-2xl bg-white/10 hover:bg-white/15 border border-white/25 text-white font-semibold text-sm transition-all flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-file-signature text-gold-400"></i>
+                            <span>Request Aid (Tally Form)</span>
+                        </a>
+                    </div>
+
+                    <!-- Inspiring Hero Story Callout Card -->
+                    <div class="p-4 sm:p-5 rounded-2xl bg-emerald-950/65 border border-emerald-700/70 backdrop-blur-sm max-w-2xl mx-auto lg:mx-0 text-left">
+                        <div class="flex items-start gap-3.5">
+                            <div class="w-10 h-10 rounded-xl bg-gold-500/20 text-gold-400 flex items-center justify-center text-base shrink-0 mt-0.5">
+                                <i class="fa-solid fa-quote-left"></i>
+                            </div>
+                            <div>
+                                <p class="font-serif italic text-sm sm:text-base text-emerald-50 leading-relaxed">
+                                    "While we know we can't eradicate all the problems in the world, we believe that every step in the right direction matters—mitigating even one problem at a time transforms entire lives."
+                                </p>
+                                <a href="#vision" class="inline-flex items-center gap-1.5 text-xs font-bold text-gold-400 hover:text-gold-300 mt-2 transition-colors">
+                                    <span>Read Our Full Collaborative Vision &amp; Volunteer Mission</span>
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Trust Indicators -->
+                    <div class="grid grid-cols-3 gap-4 pt-4 border-t border-emerald-800/70 max-w-lg mx-auto lg:mx-0">
+                        <div>
+                            <p class="font-display font-extrabold text-xl sm:text-2xl text-gold-400">10+</p>
+                            <p class="text-xs text-emerald-100">Active Relief Programs</p>
+                        </div>
+                        <div>
+                            <p class="font-display font-extrabold text-xl sm:text-2xl text-gold-400">$10 / €10</p>
+                            <p class="text-xs text-emerald-100">Minimum Contribution</p>
+                        </div>
+                        <div>
+                            <p class="font-display font-extrabold text-xl sm:text-2xl text-gold-400">United</p>
+                            <p class="text-xs text-emerald-100">Partners &amp; Volunteers</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Hero Highlight Card -->
+                <div id="campaign-10" class="lg:col-span-5 relative">
+                    <div class="absolute -inset-2.5 rounded-[2rem] bg-gradient-to-tr from-gold-500/35 via-gold-400/15 to-emerald-400/25 blur-md pointer-events-none"></div>
+                    <div class="relative bg-cream/95 backdrop-blur-md text-slate-800 rounded-3xl p-6 sm:p-8 shadow-2xl border-2 border-gold-400/60">
+                        <div class="absolute -top-4 right-6 bg-gradient-to-r from-gold-500 to-gold-400 text-emerald-950 text-xs font-extrabold uppercase tracking-wider px-4 py-1.5 rounded-full shadow-lg">
+                            Featured Campaign
+                        </div>
+
+                        <div class="space-y-4 pt-2">
+                            <div class="flex items-center gap-3">
+                                <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md">
+                                    <i class="fa-solid fa-coins"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-display font-extrabold text-xl text-emerald-950">The $10 / €10 Campaign</h3>
+                                    <p class="text-xs font-semibold text-emerald-800">Small Acts of Sadaqah, Massive Impact</p>
+                                </div>
+                            </div>
+
+                            <p class="text-sm text-slate-600 leading-relaxed">
+                                You don't need a fortune to change a life. Contributing just <strong>$10 / €10</strong> helps fund water wells, urgent sickle cell care, food packs, and women's sanitary kits.
+                            </p>
+
+                            <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200/80 space-y-2">
+                                <div class="flex justify-between text-xs font-bold text-emerald-950">
+                                    <span>Monthly Goal Progress</span>
+                                    <span class="text-gold-600 font-extrabold">74% Funded</span>
+                                </div>
+                                <div class="w-full bg-emerald-200 h-2.5 rounded-full overflow-hidden">
+                                    <div class="bg-gradient-to-r from-emerald-800 to-gold-500 h-full rounded-full" style="width: 74%"></div>
+                                </div>
+                                <div class="flex justify-between text-[0.7rem] text-slate-500 font-medium pt-1">
+                                    <span>$7,420 raised of $10,000 goal</span>
+                                    <span>846 Donors</span>
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-2 gap-3 text-xs font-semibold text-slate-700 pt-1">
+                                <div class="flex items-center gap-2 p-2.5 rounded-xl bg-white border border-slate-200">
+                                    <i class="fa-solid fa-check text-emerald-700"></i>
+                                    <span>100% Amanah Policy</span>
+                                </div>
+                                <div class="flex items-center gap-2 p-2.5 rounded-xl bg-white border border-slate-200">
+                                    <i class="fa-solid fa-check text-emerald-700"></i>
+                                    <span>Zakat Eligible</span>
+                                </div>
+                            </div>
+
+                            <button onclick="quickSelectTenDollar()" class="w-full py-3.5 px-6 rounded-2xl bg-gradient-to-r from-emerald-900 to-emerald-850 hover:from-emerald-850 hover:to-emerald-800 text-white font-bold text-sm sm:text-base transition-all shadow-lg shadow-emerald-950/20 flex items-center justify-center gap-2">
+                                <span>Give $10 or €10 Today</span>
+                                <i class="fa-solid fa-arrow-right text-gold-400"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collaborative Vision, Community Partnerships & Volunteer Spirit Section -->
+    <section id="vision" class="py-16 sm:py-24 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="relative rounded-[2.25rem] bg-gradient-to-br from-white via-cream to-sand border border-amber-200/70 p-6 sm:p-10 lg:p-12 shadow-xl overflow-hidden">
+                <div class="absolute -right-10 -bottom-10 pointer-events-none opacity-5">
+                    <svg viewBox="0 0 220 215" class="w-96 h-96">
+                        <path fill="#165B1E" d="M68 38 L88 41 L92 48 C96 76 96 108 87 136 L83 125 L79 112 L72 103 L54 103 L42 97 L36 81 L32 69 L37 64 L35 58 L51 44 Z"/>
+                    </svg>
+                </div>
+
+                <div class="relative grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+                    <div class="lg:col-span-7 space-y-5">
+                        <span class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-emerald-800 bg-emerald-100/90 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                            <i data-lucide="handshake" class="w-4 h-4 text-emerald-700"></i>
+                            <span>Partnerships &amp; Volunteer Heartbeat</span>
+                        </span>
+                        <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-emerald-950 leading-tight">
+                            Amplifying Impact Together, <span class="font-serif italic text-emerald-800">One Problem at a Time</span>
+                        </h2>
+                        <div class="space-y-3.5 text-slate-700 text-sm sm:text-base leading-relaxed">
+                            <p>
+                                We actively collaborate with other non-profit organizations, local authorities, and community groups to amplify our impact and reach more people in need. Our dedicated volunteers play a crucial role in implementing our projects, bringing their skills, energy, and passion to our cause.
+                            </p>
+                            <p>
+                                While we know we can't eradicate all the problems in the world, we believe that every step in the right direction matters. By mitigating even one problem at a time, we are making a significant difference in the lives of those we serve.
+                            </p>
+                            <p class="font-semibold text-emerald-950">
+                                Looking to the future, we remain committed to expanding our programs and finding innovative ways to serve our world better. With the continued support of our volunteers and partners, we believe we can create lasting positive change and build a brighter, more equitable world for all.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Layered Partner & Volunteer Registration Card -->
+                    <div class="lg:col-span-5">
+                        <div class="bg-gradient-to-br from-[#0A2E0F] to-[#165B1E] text-white rounded-3xl p-6 sm:p-7 shadow-2xl border border-gold-400/35 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-islamic-lattice opacity-60 pointer-events-none"></div>
+                            <div class="relative space-y-4">
+                                <div class="flex items-center gap-3">
+                                    <div class="w-11 h-11 rounded-2xl bg-gold-500/20 border border-gold-400/40 text-gold-400 flex items-center justify-center">
+                                        <i data-lucide="users-round" class="w-5 h-5"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-display font-bold text-lg text-white">Join as Partner or Volunteer</h3>
+                                        <p class="text-xs text-emerald-200">Lend your skills, group, or local network</p>
+                                    </div>
+                                </div>
+
+                                <form id="partner-volunteer-form" class="space-y-3">
+                                    <select id="pv-role" class="w-full rounded-xl bg-emerald-950/90 border border-emerald-600/70 text-white text-sm font-semibold px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-gold-400">
+                                        <option value="Community Volunteer">Volunteer (Field &amp; Skills)</option>
+                                        <option value="Partner Non-Profit / NGO">Partner Non-Profit Organization</option>
+                                        <option value="Local Authority / Community Group">Local Authority / Community Group</option>
+                                    </select>
+                                    <input type="text" id="pv-name" required placeholder="Your Name or Organization" class="w-full rounded-xl bg-white/95 text-slate-900 placeholder:text-slate-400 text-sm px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-gold-400">
+                                    <input type="text" id="pv-contact" required placeholder="WhatsApp Number or Email" class="w-full rounded-xl bg-white/95 text-slate-900 placeholder:text-slate-400 text-sm px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-gold-400">
+                                    <input type="text" id="pv-focus" required placeholder="Area of Support (e.g., Medical, Water, Logistics)" class="w-full rounded-xl bg-white/95 text-slate-900 placeholder:text-slate-400 text-sm px-3.5 py-2.5 focus:outline-none focus:ring-2 focus:ring-gold-400">
+                                    <button type="submit" class="w-full py-3 px-4 rounded-xl bg-gold-500 hover:bg-gold-400 text-emerald-950 font-extrabold text-sm shadow-lg transition-all flex items-center justify-center gap-2">
+                                        <span>Connect With Our Field Team</span>
+                                        <i class="fa-solid fa-arrow-right"></i>
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Growth & Impact Volumes (2022–2026) Section -->
+    <section id="growth" class="py-16 sm:py-24 bg-logo-wallpaper border-y border-amber-200/50 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+            <div class="text-center max-w-3xl mx-auto space-y-3">
+                <span class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-emerald-800 bg-emerald-100/90 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                    <i data-lucide="trending-up" class="w-4 h-4 text-emerald-700"></i>
+                    <span>Transparency &amp; Cumulative Volumes</span>
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-emerald-950">
+                    Our Growth &amp; Impact Volumes <span class="font-serif italic text-emerald-800">(2022–2026)</span>
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base">
+                    Grounded, steady progress reflecting our grassroots commitment to every community we serve.
+                </p>
+            </div>
+
+            <!-- KPI Cards Grid -->
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+                <div class="layered-card bg-cream/95 backdrop-blur-sm p-5 rounded-2xl border border-amber-200/70 text-center space-y-1.5">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 mx-auto flex items-center justify-center text-base mb-2">
+                        <i data-lucide="users" class="w-5 h-5"></i>
+                    </div>
+                    <p class="font-display font-extrabold text-xl sm:text-2xl text-emerald-950">6,850+</p>
+                    <p class="text-xs font-semibold text-slate-600">Beneficiaries Reached</p>
+                </div>
+                <div class="layered-card bg-cream/95 backdrop-blur-sm p-5 rounded-2xl border border-amber-200/70 text-center space-y-1.5">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 mx-auto flex items-center justify-center text-base mb-2">
+                        <i data-lucide="droplets" class="w-5 h-5"></i>
+                    </div>
+                    <p class="font-display font-extrabold text-xl sm:text-2xl text-emerald-950">13</p>
+                    <p class="text-xs font-semibold text-slate-600">Boreholes &amp; Wells</p>
+                </div>
+                <div class="layered-card bg-cream/95 backdrop-blur-sm p-5 rounded-2xl border border-amber-200/70 text-center space-y-1.5">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 mx-auto flex items-center justify-center text-base mb-2">
+                        <i data-lucide="utensils" class="w-5 h-5"></i>
+                    </div>
+                    <p class="font-display font-extrabold text-xl sm:text-2xl text-emerald-950">2,450+</p>
+                    <p class="text-xs font-semibold text-slate-600">Food &amp; Qurbani Packs</p>
+                </div>
+                <div class="layered-card bg-cream/95 backdrop-blur-sm p-5 rounded-2xl border border-amber-200/70 text-center space-y-1.5">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 mx-auto flex items-center justify-center text-base mb-2">
+                        <i data-lucide="heart-pulse" class="w-5 h-5"></i>
+                    </div>
+                    <p class="font-display font-extrabold text-xl sm:text-2xl text-emerald-950">1,450+</p>
+                    <p class="text-xs font-semibold text-slate-600">Pad Kits &amp; Surgeries</p>
+                </div>
+                <div class="layered-card bg-cream/95 backdrop-blur-sm p-5 rounded-2xl border border-amber-200/70 text-center space-y-1.5">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 mx-auto flex items-center justify-center text-base mb-2">
+                        <i data-lucide="heart-handshake" class="w-5 h-5"></i>
+                    </div>
+                    <p class="font-display font-extrabold text-xl sm:text-2xl text-emerald-950">85+ / 9</p>
+                    <p class="text-xs font-semibold text-slate-600">Volunteers &amp; Partners</p>
+                </div>
+                <div class="layered-card bg-cream/95 backdrop-blur-sm p-5 rounded-2xl border border-amber-200/70 text-center space-y-1.5">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 mx-auto flex items-center justify-center text-base mb-2">
+                        <i data-lucide="coins" class="w-5 h-5"></i>
+                    </div>
+                    <p class="font-display font-extrabold text-xl sm:text-2xl text-emerald-950">940+</p>
+                    <p class="text-xs font-semibold text-slate-600">Online Donors</p>
+                </div>
+            </div>
+
+            <!-- Interactive Year-over-Year Growth Visualizer Card -->
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border border-slate-200 shadow-xl space-y-6">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 border-b border-slate-100 pb-5">
+                    <div>
+                        <h3 id="growth-chart-title" class="font-display font-bold text-xl text-emerald-950">Annual Beneficiaries Reached (2022–2026)</h3>
+                        <p id="growth-chart-subtitle" class="text-xs sm:text-sm text-slate-500 mt-0.5">Individuals reached each year across clean water wells, sickle cell support, food packs, and bedding drives.</p>
+                    </div>
+                    <!-- Toggleable Metric Tabs -->
+                    <div class="flex flex-wrap gap-2" role="tablist">
+                        <button type="button" data-growth-metric="beneficiaries" class="growth-metric-btn active px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-emerald-900 text-white shadow-sm transition-all flex items-center gap-1.5">
+                            <i data-lucide="users" class="w-4 h-4 text-gold-400"></i>
+                            <span>Beneficiaries Reached</span>
+                        </button>
+                        <button type="button" data-growth-metric="projects" class="growth-metric-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-cream text-slate-700 border border-slate-200 hover:border-emerald-400 transition-all flex items-center gap-1.5">
+                            <i data-lucide="layers" class="w-4 h-4 text-emerald-700"></i>
+                            <span>Projects &amp; Aid Volumes</span>
+                        </button>
+                        <button type="button" data-growth-metric="community" class="growth-metric-btn px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-cream text-slate-700 border border-slate-200 hover:border-emerald-400 transition-all flex items-center gap-1.5">
+                            <i data-lucide="trending-up" class="w-4 h-4 text-emerald-700"></i>
+                            <span>Online Donor &amp; Volunteer Growth</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Visual Bar Chart Container -->
+                <div id="growth-bars-container" class="grid sm:grid-cols-5 gap-4 pt-2">
+                    <!-- Populated dynamically by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Programs Section -->
+    <section id="programs" class="py-16 sm:py-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
+        <div class="text-center max-w-3xl mx-auto space-y-3">
+            <span class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-emerald-800 bg-emerald-100/90 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                <i data-lucide="heart-handshake" class="w-4 h-4 text-emerald-700"></i>
+                <span>Our 10 Core Relief Programs</span>
+            </span>
+            <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-emerald-950">
+                Transforming Lives Through Dedicated Initiatives
+            </h2>
+            <p class="text-slate-600 text-sm sm:text-base">
+                Click any cause to instantly select it in our donation portal and make a difference starting at $10 / €10.
+            </p>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Program 1 -->
+            <div onclick="selectCause('Water Wells &amp; Boreholes')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-droplet"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Water Wells &amp; Boreholes</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Constructing sustainable clean water sources in remote water-scarce communities to prevent waterborne diseases.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 2 -->
+            <div onclick="selectCause('Sickle Cell Operation Campaign')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Sickle Cell Operation Campaign</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Funding life-saving surgeries, specialized treatments, and essential medications for sickle cell patients in urgent need.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 3 -->
+            <div onclick="selectCause('Food Pack Distribution')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Food Pack Distribution</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Delivering nutritious staple food parcels (maize flour, rice, cooking oil, beans) to struggling families and widows.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 4 -->
+            <div onclick="selectCause('Orphan Sponsorship')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-child-reaching"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Orphan Sponsorship</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Providing comprehensive educational support, school fees, uniforms, mentorship, and daily nourishment for orphans.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 5 -->
+            <div onclick="selectCause('Women Sanitary Pad Donation')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-hand-holding-medical"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Women Sanitary Pad Donation</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Supplying menstrual hygiene kits and sanitary pads to keep schoolgirls in education and safeguard women's health.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 6 -->
+            <div onclick="selectCause('Madarasa Support')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-book-quran"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Madarasa Support</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Equipping Islamic schools with Quranic texts, learning materials, teacher support, and facility improvements.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 7 -->
+            <div onclick="selectCause('Mosque Building')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-mosque"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Mosque Building</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Building safe, welcoming houses of worship and community gathering centers for underserved rural villages.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 8 -->
+            <div onclick="selectCause('Kurban / Eid Sacrifices')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-gift"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Kurban / Eid Sacrifices</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Fulfilling Qurbani and Eid sacrifices to ensure vulnerable families experience the joy and nourishment of the festive season.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+
+            <!-- Program 9 -->
+            <div onclick="selectCause('Shelter &amp; Basic Needs (Beddings)')" class="layered-card bg-cream/95 backdrop-blur-sm p-6 sm:p-7 rounded-3xl border border-amber-200/70 cursor-pointer group flex flex-col justify-between">
+                <div class="space-y-4">
+                    <div class="w-12 h-12 rounded-2xl bg-emerald-900 text-gold-400 flex items-center justify-center text-xl shadow-md group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-bed"></i>
+                    </div>
+                    <h3 class="font-display font-bold text-xl text-emerald-950 group-hover:text-emerald-800 transition-colors">Shelter &amp; Basic Needs (Beddings)</h3>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        Providing safe shelter repairs, mattresses, blankets, and essential household beddings for displaced families.
+                    </p>
+                </div>
+                <div class="pt-5 flex items-center justify-between border-t border-amber-200/60 mt-4 text-xs font-bold text-emerald-900">
+                    <span>Select for Donation</span>
+                    <i class="fa-solid fa-arrow-right text-gold-600 group-hover:translate-x-1 transition-transform"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Multi-Channel Donation Portal -->
+    <section id="donate" class="py-16 sm:py-24 bg-gradient-to-b from-sand to-cream border-t border-amber-200/70 relative">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+            <div class="text-center max-w-2xl mx-auto space-y-3">
+                <span class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-emerald-800 bg-emerald-100/90 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                    <i class="fa-solid fa-lock text-emerald-700"></i>
+                    <span>Secure Donation Portal • $10 / €10 Minimum</span>
+                </span>
+                <h2 class="font-display text-3xl sm:text-4xl font-extrabold text-emerald-950">
+                    Make Your Contribution Today
+                </h2>
+                <p class="text-slate-600 text-sm sm:text-base">
+                    Select your country to pay via Mobile Money, use United Bank of Africa wire details, or checkout via Card/PayPal.
+                </p>
+            </div>
+
+            <!-- Main Portal Card -->
+            <div class="bg-white rounded-[2.5xl] shadow-2xl border-2 border-gold-400/50 p-6 sm:p-10 space-y-8 relative overflow-hidden">
+                <!-- Frequency Selector (One-Time vs Monthly Sadaqah Jariyah) -->
+                <div class="space-y-3">
+                    <label class="block text-xs font-extrabold uppercase tracking-wider text-slate-500">1. Select Giving Frequency</label>
+                    <div class="grid grid-cols-2 gap-3" role="tablist">
+                        <button type="button" data-freq="one-time" class="freq-btn active py-3.5 px-4 rounded-2xl font-bold text-sm bg-emerald-900 text-white shadow-md transition-all flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-gift text-gold-400"></i>
+                            <span>One-Time Sadaqah</span>
+                        </button>
+                        <button type="button" data-freq="monthly" class="freq-btn py-3.5 px-4 rounded-2xl font-bold text-sm bg-cream text-slate-700 border border-slate-300 hover:border-emerald-700 transition-all flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-rotate text-emerald-700"></i>
+                            <span>Monthly Sadaqah Jariyah</span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Country & Currency Selector -->
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="space-y-2">
+                        <label for="donor-country" class="block text-xs font-extrabold uppercase tracking-wider text-slate-500">2. Select Your Country</label>
+                        <select id="donor-country" class="w-full rounded-2xl bg-cream border-2 border-slate-200 font-bold text-slate-800 text-sm p-4 focus:outline-none focus:border-emerald-700 transition-colors">
+                            <option value="UG">Uganda (UGX)</option>
+                            <option value="KE">Kenya (KES)</option>
+                            <option value="TZ">Tanzania (TZS)</option>
+                            <option value="RW">Rwanda (RWF)</option>
+                            <option value="NG">Nigeria (NGN)</option>
+                            <option value="GH">Ghana (GHS)</option>
+                            <option value="ZA">South Africa (ZAR)</option>
+                            <option value="US" selected>International Remittance (USD $)</option>
+                            <option value="EU">European Union (EUR €)</option>
+                        </select>
+                    </div>
+                    <div class="space-y-2">
+                        <label for="donation-cause" class="block text-xs font-extrabold uppercase tracking-wider text-slate-500">3. Select Cause / Program</label>
+                        <select id="donation-cause" class="w-full rounded-2xl bg-cream border-2 border-slate-200 font-bold text-slate-800 text-sm p-4 focus:outline-none focus:border-emerald-700 transition-colors">
+                            <option value="The $10 / €10 Campaign" selected>The $10 / €10 Campaign (General Fund)</option>
+                            <option value="Water Wells &amp; Boreholes">Water Wells &amp; Boreholes Construction</option>
+                            <option value="Sickle Cell Operation Campaign">Sickle Cell Operation Campaign</option>
+                            <option value="Food Pack Distribution">Food Pack Distribution</option>
+                            <option value="Orphan Sponsorship">Orphan Sponsorship</option>
+                            <option value="Women Sanitary Pad Donation">Women Sanitary Pad Donation</option>
+                            <option value="Madrasa Support">Madrasa Support</option>
+                            <option value="Mosque Building">Mosque Building</option>
+                            <option value="Kurban / Eid Sacrifices">Kurban / Eid Sacrifices</option>
+                            <option value="Shelter &amp; Basic Needs (Beddings)">Shelter &amp; Basic Needs (Beddings)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Amount Presets & Custom Input -->
+                <div class="space-y-3">
+                    <div class="flex justify-between items-center">
+                        <label class="block text-xs font-extrabold uppercase tracking-wider text-slate-500">4. Choose Donation Amount (Min <span id="min-currency-label">$10</span>)</label>
+                        <span class="text-xs font-bold text-emerald-800" id="currency-display-tag">Currency: USD ($)</span>
+                    </div>
+                    <div id="preset-amounts-container" class="grid grid-cols-2 sm:grid-cols-5 gap-3">
+                        <button type="button" onclick="setAmount(10)" class="preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base bg-emerald-900 text-white shadow-md transition-all">10</button>
+                        <button type="button" onclick="setAmount(25)" class="preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base bg-cream text-slate-800 border-2 border-slate-200 hover:border-emerald-700 transition-all">25</button>
+                        <button type="button" onclick="setAmount(50)" class="preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base bg-cream text-slate-800 border-2 border-slate-200 hover:border-emerald-700 transition-all">50</button>
+                        <button type="button" onclick="setAmount(100)" class="preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base bg-cream text-slate-800 border-2 border-slate-200 hover:border-emerald-700 transition-all">100</button>
+                        <button type="button" onclick="setAmount(250)" class="preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base bg-cream text-slate-800 border-2 border-slate-200 hover:border-emerald-700 transition-all">250</button>
+                    </div>
+                    <div class="relative pt-1">
+                        <span id="currency-symbol-prefix" class="absolute left-4 top-1/2 mt-0.5 font-extrabold text-slate-400 text-lg">$</span>
+                        <input type="number" id="custom-amount" min="10" value="10" class="w-full rounded-2xl bg-cream border-2 border-slate-200 font-black text-2xl text-emerald-950 pl-10 pr-4 py-3.5 focus:outline-none focus:border-emerald-700 transition-colors" placeholder="Enter custom amount">
+                    </div>
+                </div>
+
+                <!-- Real-Time Impact Visualizer Banner -->
+                <div class="p-4 sm:p-5 rounded-2xl bg-gradient-to-r from-emerald-900 to-emerald-950 text-white flex items-center gap-4 shadow-lg">
+                    <div class="w-12 h-12 rounded-2xl bg-gold-500/20 text-gold-400 flex items-center justify-center text-xl shrink-0">
+                        <i class="fa-solid fa-seedling"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs font-semibold text-emerald-200 uppercase tracking-wider">Your Impact Projection</p>
+                        <p id="impact-projection-text" class="font-display font-bold text-sm sm:text-base text-white">Your contribution will help provide essential support for vulnerable families and orphans.</p>
+                    </div>
+                </div>
+
+                <!-- Payment Channels Tabs -->
+                <div class="space-y-4 pt-4 border-t border-slate-200">
+                    <label class="block text-xs font-extrabold uppercase tracking-wider text-slate-500">5. Choose Payment Method</label>
+                    <div class="grid grid-cols-3 gap-2" role="tablist">
+                        <button type="button" data-tab="momo" class="pay-tab active py-3 px-2 rounded-xl text-xs sm:text-sm font-bold bg-emerald-900 text-white shadow transition-all flex items-center justify-center gap-1.5">
+                            <i class="fa-solid fa-mobile-screen-button text-gold-400"></i>
+                            <span>Mobile Money</span>
+                        </button>
+                        <button type="button" data-tab="bank" class="pay-tab py-3 px-2 rounded-xl text-xs sm:text-sm font-bold bg-cream text-slate-700 border border-slate-300 hover:border-emerald-700 transition-all flex items-center justify-center gap-1.5">
+                            <i class="fa-solid fa-building-columns text-emerald-700"></i>
+                            <span>Bank Wire (UBA)</span>
+                        </button>
+                        <button type="button" data-tab="card" class="pay-tab py-3 px-2 rounded-xl text-xs sm:text-sm font-bold bg-cream text-slate-700 border border-slate-300 hover:border-emerald-700 transition-all flex items-center justify-center gap-1.5">
+                            <i class="fa-solid fa-credit-card text-emerald-700"></i>
+                            <span>Card / PayPal</span>
+                        </button>
+                    </div>
+
+                    <!-- Tab 1: Mobile Money Content -->
+                    <div id="pane-momo" class="pay-pane space-y-4 pt-2">
+                        <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 space-y-2">
+                            <p class="text-xs font-bold text-emerald-950 uppercase tracking-wider">Available Networks for <span id="momo-country-name">Uganda</span></p>
+                            <p id="momo-networks-desc" class="text-sm font-semibold text-emerald-900">MTN MoMo &amp; Airtel Money</p>
+                            <p class="text-xs text-slate-600">Enter your phone number to receive an instant payment authorization prompt on your mobile device.</p>
+                        </div>
+                        <form id="momo-form" class="space-y-3">
+                            <div class="grid sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">Your Full Name *</label>
+                                    <input type="text" id="momo-name" required placeholder="Enter full name" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3 focus:outline-none focus:border-emerald-700">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">Mobile Money Number *</label>
+                                    <input type="tel" id="momo-phone" required placeholder="e.g. +256 770 000000" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3 focus:outline-none focus:border-emerald-700">
+                                </div>
+                            </div>
+                            <button type="submit" id="momo-submit-btn" class="w-full py-4 rounded-2xl bg-gold-500 hover:bg-gold-400 text-emerald-950 font-black text-base shadow-xl transition-all flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-shield-halved"></i>
+                                <span id="momo-btn-text">Donate $10 via Mobile Money</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Tab 2: Bank Wire (United Bank of Africa) Content -->
+                    <div id="pane-bank" class="pay-pane hidden space-y-4 pt-2">
+                        <div class="p-5 rounded-2xl bg-gradient-to-br from-[#0A2E0F] to-[#165B1E] text-white space-y-4 shadow-xl border border-gold-400/40 relative overflow-hidden">
+                            <div class="absolute inset-0 bg-islamic-lattice opacity-50 pointer-events-none"></div>
+                            <div class="relative flex items-center justify-between border-b border-emerald-800 pb-3">
+                                <div class="flex items-center gap-2.5">
+                                    <div class="w-9 h-9 rounded-xl bg-gold-500/20 text-gold-400 flex items-center justify-center">
+                                        <i class="fa-solid fa-building-columns"></i>
+                                    </div>
+                                    <span class="font-display font-bold text-base text-white">United Bank for Africa (UBA)</span>
+                                </div>
+                                <span class="px-3 py-1 rounded-full bg-gold-500 text-emerald-950 text-xs font-extrabold uppercase">Official Wire Account</span>
+                            </div>
+
+                            <div class="relative grid sm:grid-cols-2 gap-4 text-sm">
+                                <div class="space-y-1">
+                                    <span class="text-xs text-emerald-200 uppercase tracking-wider block font-semibold">Account Name</span>
+                                    <div class="flex items-center justify-between bg-emerald-950/80 p-2.5 rounded-xl border border-emerald-800">
+                                        <span id="bank-name-text" class="font-bold text-white text-xs sm:text-sm">Sadaqah African Charity Organization</span>
+                                        <button onclick="copyText('bank-name-text')" class="text-xs bg-emerald-900 hover:bg-emerald-800 text-gold-400 px-2 py-1 rounded font-bold">Copy</button>
+                                    </div>
+                                </div>
+                                <div class="space-y-1">
+                                    <span class="text-xs text-emerald-200 uppercase tracking-wider block font-semibold">Account Number</span>
+                                    <div class="flex items-center justify-between bg-emerald-950/80 p-2.5 rounded-xl border border-emerald-800">
+                                        <span id="bank-acc-text" class="font-bold text-gold-400 text-base">0764007338</span>
+                                        <button onclick="copyText('bank-acc-text')" class="text-xs bg-emerald-900 hover:bg-emerald-800 text-gold-400 px-2 py-1 rounded font-bold">Copy</button>
+                                    </div>
+                                </div>
+                                <div class="space-y-1">
+                                    <span class="text-xs text-emerald-200 uppercase tracking-wider block font-semibold">SWIFT Code</span>
+                                    <div class="flex items-center justify-between bg-emerald-950/80 p-2.5 rounded-xl border border-emerald-800">
+                                        <span id="bank-swift-text" class="font-bold text-white font-mono">UNAFUGKA</span>
+                                        <button onclick="copyText('bank-swift-text')" class="text-xs bg-emerald-900 hover:bg-emerald-800 text-gold-400 px-2 py-1 rounded font-bold">Copy</button>
+                                    </div>
+                                </div>
+                                <div class="space-y-1">
+                                    <span class="text-xs text-emerald-200 uppercase tracking-wider block font-semibold">Bank Location</span>
+                                    <div class="bg-emerald-950/80 p-2.5 rounded-xl border border-emerald-800">
+                                        <span class="font-bold text-white text-xs sm:text-sm">Kampala, Uganda (Global Wire Supported)</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pt-2 flex flex-col sm:flex-row items-center justify-between gap-3 border-t border-emerald-800">
+                                <p class="text-xs text-emerald-200">After wiring funds, please send your transfer receipt to our WhatsApp for immediate allocation.</p>
+                                <a href="https://wa.me/256794829147?text=Assalamu%20Alaikum%2C%20I%20have%20completed%20a%20Bank%20Wire%20to%20UBA%20Account%200764007338." target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl bg-gold-500 hover:bg-gold-400 text-emerald-950 text-xs font-black shadow transition-all flex items-center gap-1.5 shrink-0">
+                                    <i class="fa-brands fa-whatsapp text-sm"></i> Notify via WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tab 3: Card / PayPal Content -->
+                    <div id="pane-card" class="pay-pane hidden space-y-4 pt-2">
+                        <form id="card-checkout-form" class="space-y-3">
+                            <div>
+                                <label class="block text-xs font-bold text-slate-600 mb-1">Cardholder Name *</label>
+                                <input type="text" id="card-name" required placeholder="Name on card" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3 focus:outline-none focus:border-emerald-700">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-slate-600 mb-1">Card Number *</label>
+                                <input type="text" id="card-num" required placeholder="4242 •••• •••• 4242" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3 focus:outline-none focus:border-emerald-700">
+                            </div>
+                            <div class="grid grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">Expiry Date *</label>
+                                    <input type="text" required placeholder="MM/YY" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3 focus:outline-none focus:border-emerald-700">
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold text-slate-600 mb-1">CVV / CVC *</label>
+                                    <input type="password" required placeholder="123" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3 focus:outline-none focus:border-emerald-700">
+                                </div>
+                            </div>
+                            <button type="submit" id="card-submit-btn" class="w-full py-4 rounded-2xl bg-emerald-900 hover:bg-emerald-850 text-white font-black text-base shadow-xl transition-all flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-lock text-gold-400"></i>
+                                <span id="card-btn-text">Complete Secure Donation ($10)</span>
+                            </button>
+                        </form>
+
+                        <div class="text-center pt-2">
+                            <span class="text-xs text-slate-400 block mb-2">Or checkout instantly with PayPal</span>
+                            <button type="button" onclick="simulatePayPalCheckout()" class="w-full py-3.5 rounded-2xl bg-[#0070BA] hover:bg-[#003087] text-white font-bold text-sm shadow transition-all flex items-center justify-center gap-2">
+                                <i class="fa-brands fa-paypal text-lg text-[#00FFCC]"></i>
+                                <span>Pay with PayPal Express</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Direct WhatsApp Inquiry Bar -->
+                <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs sm:text-sm">
+                    <div class="flex items-center gap-2.5 text-emerald-950 font-bold">
+                        <i class="fa-brands fa-whatsapp text-emerald-600 text-xl"></i>
+                        <span>Need assistance or want to pledge via WhatsApp?</span>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <a href="https://wa.me/256794829147?text=Assalamu%20Alaikum%2C%20I%20need%20help%20with%20my%20donation." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl bg-emerald-900 text-white font-bold hover:bg-emerald-800 transition-colors">
+                            Primary: +256 794 829 147
+                        </a>
+                        <a href="https://wa.me/256784888580?text=Assalamu%20Alaikum%20CEO%2C%20I%20would%20like%20to%20discuss%20a%20donation%20or%20partnership." target="_blank" rel="noopener noreferrer" class="px-3.5 py-2 rounded-xl bg-gold-500 text-emerald-950 font-black hover:bg-gold-400 transition-colors">
+                            CEO: +256 784 888 580
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tally-Style Donation / Aid Request Form -->
+    <section id="request-aid" class="py-16 sm:py-24 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="bg-white rounded-[2.5xl] shadow-2xl border-2 border-emerald-800/20 p-6 sm:p-10 lg:p-12 space-y-8 relative overflow-hidden">
+            <div class="absolute -top-12 -right-12 pointer-events-none opacity-5">
+                <svg viewBox="0 0 220 215" class="w-80 h-80">
+                    <path fill="#165B1E" d="M68 38 L88 41 L92 48 C96 76 96 108 87 136 L83 125 L79 112 L72 103 L54 103 L42 97 L36 81 L32 69 L37 64 L35 58 L51 44 Z"/>
+                </svg>
+            </div>
+
+            <div class="text-center space-y-3">
+                <span class="inline-flex items-center gap-2 text-xs font-extrabold uppercase tracking-widest text-emerald-800 bg-emerald-100/90 border border-emerald-200 px-3.5 py-1.5 rounded-full">
+                    <i class="fa-solid fa-file-signature text-emerald-700"></i>
+                    <span>Tally-Style Aid Application</span>
+                </span>
+                <h2 class="font-display text-2xl sm:text-4xl font-extrabold text-emerald-950">
+                    Request Donation or Community Support
+                </h2>
+                <p class="text-slate-600 text-sm">
+                    Fill out the official request form below. Our field committee reviews all applications weekly.
+                </p>
+            </div>
+
+            <form id="aid-request-form" class="space-y-6">
+                <!-- Question 1: Individual or Organization -->
+                <div class="space-y-2">
+                    <label class="block text-sm font-extrabold text-emerald-950">Does this request come from an Individual or an Organization? *</label>
+                    <div class="grid grid-cols-2 gap-3">
+                        <label class="flex items-center gap-3 p-3.5 rounded-xl border-2 border-slate-200 hover:border-emerald-700 cursor-pointer bg-cream font-bold text-sm">
+                            <input type="radio" name="req-applicant-type" value="Individual" checked class="text-emerald-900 focus:ring-emerald-700">
+                            <span>Individual</span>
+                        </label>
+                        <label class="flex items-center gap-3 p-3.5 rounded-xl border-2 border-slate-200 hover:border-emerald-700 cursor-pointer bg-cream font-bold text-sm">
+                            <input type="radio" name="req-applicant-type" value="Organization" class="text-emerald-900 focus:ring-emerald-700">
+                            <span>Organization</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Name & Email -->
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="space-y-1.5">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Name *</label>
+                        <input type="text" id="req-name" required placeholder="Full name or organization name" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700">
+                    </div>
+                    <div class="space-y-1.5">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Email</label>
+                        <input type="email" id="req-email" placeholder="e.g. name@example.com" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700">
+                    </div>
+                </div>
+
+                <!-- Mobile Number & Address -->
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="space-y-1.5">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Mobile Number *</label>
+                        <input type="tel" id="req-mobile" required placeholder="e.g. +256 700 000000" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700">
+                    </div>
+                    <div class="space-y-1.5">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Address *</label>
+                        <input type="text" id="req-address" required placeholder="Village, Street, or Area" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700">
+                    </div>
+                </div>
+
+                <!-- Upazila & District -->
+                <div class="grid sm:grid-cols-2 gap-5">
+                    <div class="space-y-1.5">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Upazila / County *</label>
+                        <input type="text" id="req-upazila" required placeholder="County or Sub-county" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700">
+                    </div>
+                    <div class="space-y-1.5">
+                        <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">District *</label>
+                        <input type="text" id="req-district" required placeholder="District name" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700">
+                    </div>
+                </div>
+
+                <!-- Type of donation needed -->
+                <div class="space-y-3">
+                    <label class="block text-sm font-extrabold text-emerald-950">What type of donation do you need? *</label>
+                    <div class="grid grid-cols-3 gap-3">
+                        <label class="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200 bg-cream font-semibold text-xs cursor-pointer">
+                            <input type="checkbox" name="req-type" value="Product" class="rounded text-emerald-900 focus:ring-emerald-700">
+                            <span>Product (Food/Pads/Bedding)</span>
+                        </label>
+                        <label class="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200 bg-cream font-semibold text-xs cursor-pointer">
+                            <input type="checkbox" name="req-type" value="Cash" class="rounded text-emerald-900 focus:ring-emerald-700">
+                            <span>Cash / Financial Aid</span>
+                        </label>
+                        <label class="flex items-center gap-2.5 p-3 rounded-xl border border-slate-200 bg-cream font-semibold text-xs cursor-pointer">
+                            <input type="checkbox" name="req-type" value="Other" class="rounded text-emerald-900 focus:ring-emerald-700">
+                            <span>Other (Water/Medical)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- How many people will benefit -->
+                <div class="space-y-1.5">
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">How many people will benefit from this donation?</label>
+                    <input type="number" id="req-beneficiaries" min="1" placeholder="e.g. 50" class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700">
+                </div>
+
+                <!-- Explanation -->
+                <div class="space-y-1.5">
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Please explain why you need this donation. *</label>
+                    <textarea id="req-reason" required rows="4" placeholder="Describe your situation, urgency, and specific needs..." class="w-full rounded-xl bg-cream border border-slate-200 text-sm p-3.5 focus:outline-none focus:border-emerald-700"></textarea>
+                </div>
+
+                <!-- Upload Documents -->
+                <div class="space-y-1.5">
+                    <label class="block text-xs font-bold uppercase tracking-wider text-slate-700">Please upload Supporting Documents (if any)</label>
+                    <div class="border-2 border-dashed border-slate-300 rounded-2xl p-6 text-center bg-cream hover:border-emerald-700 transition-colors cursor-pointer relative">
+                        <input type="file" id="req-file-upload" multiple class="absolute inset-0 opacity-0 cursor-pointer" onchange="handleFileSelect(event)">
+                        <div class="space-y-2">
+                            <i class="fa-solid fa-cloud-arrow-up text-3xl text-emerald-800"></i>
+                            <p class="text-sm font-bold text-slate-700">Drag &amp; drop files here, or <span class="text-emerald-800 underline">browse</span></p>
+                            <p class="text-xs text-slate-400">Support for PDF, JPG, PNG, DOCX (Max 10MB)</p>
+                        </div>
+                    </div>
+                    <div id="file-list-display" class="text-xs font-semibold text-emerald-900 space-y-1 pt-1"></div>
+                </div>
+
+                <button type="submit" class="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-900 to-emerald-850 hover:from-emerald-850 hover:to-emerald-800 text-white font-extrabold text-base shadow-xl transition-all flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-paper-plane text-gold-400"></i>
+                    <span>SUBMIT AID REQUEST</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gradient-to-br from-[#0A2E0F] via-[#114A18] to-[#165B1E] text-white pt-16 pb-12 relative overflow-hidden border-t border-emerald-800">
+        <div class="absolute inset-0 bg-islamic-lattice opacity-40 pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative space-y-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Col 1 -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-10 h-10 rounded-xl bg-white flex items-center justify-center p-1.5 shadow">
+                            <svg viewBox="0 0 220 215" class="w-full h-full">
+                                <path fill="#165B1E" d="M68 38 L88 41 L92 48 C96 76 96 108 87 136 L83 125 L79 112 L72 103 L54 103 L42 97 L36 81 L32 69 L37 64 L35 58 L51 44 Z"/>
+                                <path fill="#165B1E" d="M87 146 C113 145 137 132 154 114 L152 135 L144 147 L138 148 L124 167 L111 176 L101 182 L94 184 L92 162 Z"/>
+                                <circle cx="115" cy="43" r="11.5" fill="#0E0E0E"/>
+                                <path fill="#0E0E0E" d="M85 26 C97 44 103 73 99 107 C97 122 93 132 88 139 C105 131 121 112 128 86 C133 68 134 52 132 42 L127 42 C123 53 111 55 103 44 C98 37 92 31 85 26 Z"/>
+                                <circle cx="168" cy="59" r="14.5" fill="#E59A14"/>
+                                <path fill="#E59A14" d="M135 42 C143 66 141 96 123 118 C113 130 101 138 90 142 C115 142 141 128 160 105 C171 92 178 80 181 74 C169 79 156 75 148 63 C143 56 139 49 135 42 Z"/>
+                            </svg>
+                        </div>
+                        <span class="font-display font-extrabold text-lg tracking-tight">SADAQAH AFRICA</span>
+                    </div>
+                    <p class="text-xs text-emerald-200 leading-relaxed">
+                        Dedicated to clean water, sickle cell care, food distribution, orphan sponsorships, Madrasa support, and community uplifting through the $10 / €10 Sadaqah movement.
+                    </p>
+                </div>
+
+                <!-- Col 2 -->
+                <div class="space-y-3">
+                    <p class="font-display font-bold text-base text-gold-400">Official UBA Wire</p>
+                    <div class="text-xs text-emerald-200 space-y-1.5 font-medium">
+                        <p><strong class="text-white">Bank:</strong> United Bank for Africa (UBA)</p>
+                        <p><strong class="text-white">A/C Name:</strong> Sadaqah African Charity Organization</p>
+                        <p><strong class="text-white">A/C No:</strong> 0764007338</p>
+                        <p><strong class="text-white">SWIFT:</strong> UNAFUGKA</p>
+                    </div>
+                </div>
+
+                <!-- Col 3 -->
+                <div class="space-y-3">
+                    <p class="font-display font-bold text-base text-gold-400">Direct WhatsApp Lines</p>
+                    <div class="text-xs space-y-2">
+                        <a href="https://wa.me/256794829147" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-2 rounded-xl bg-emerald-900/80 hover:bg-emerald-800 transition-colors">
+                            <i class="fa-brands fa-whatsapp text-gold-400 text-sm"></i>
+                            <span>Primary: +256 794 829 147</span>
+                        </a>
+                        <a href="https://wa.me/256784888580" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 p-2 rounded-xl bg-gold-500/20 hover:bg-gold-500/30 transition-colors">
+                            <i class="fa-brands fa-whatsapp text-gold-400 text-sm"></i>
+                            <span>CEO Line: +256 784 888 580</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 4 -->
+                <div class="space-y-3">
+                    <p class="font-display font-bold text-base text-gold-400">Quick Navigation</p>
+                    <ul class="space-y-1.5 text-xs text-emerald-200">
+                        <li><a href="#programs" class="hover:text-gold-400 transition-colors">Core Programs &amp; Campaigns</a></li>
+                        <li><a href="#donate" class="hover:text-gold-400 transition-colors">Donate Portal ($10 / €10 Min)</a></li>
+                        <li><a href="#vision" class="hover:text-gold-400 transition-colors">Partnerships &amp; Volunteers</a></li>
+                        <li><a href="#growth" class="hover:text-gold-400 transition-colors">Impact &amp; Growth Volumes (2022-2026)</a></li>
+                        <li><a href="#request-aid" class="hover:text-gold-400 transition-colors">Request Donation / Aid Form</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="pt-8 border-t border-emerald-800/80 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-emerald-300">
+                <p>&copy; 2026 Sadaqah Africa Charity Organization. All Rights Reserved.</p>
+                <p>100% Amanah Policy • Zakat &amp; Sadaqah Compliant</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal / Toast Notification -->
+    <div id="success-modal" class="hidden fixed inset-0 z-50 bg-emerald-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-cream rounded-3xl max-w-md w-full p-6 sm:p-8 text-center space-y-5 shadow-2xl border-2 border-gold-400">
+            <div class="w-16 h-16 rounded-full bg-emerald-900 text-gold-400 mx-auto flex items-center justify-center text-2xl shadow-lg">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <div class="space-y-2">
+                <h3 id="modal-title" class="font-display font-extrabold text-2xl text-emerald-950">Thank You for Your Generosity!</h3>
+                <p id="modal-desc" class="text-sm text-slate-600 leading-relaxed">
+                    Your contribution has been successfully registered. May Allah bless your Sadaqah.
+                </p>
+            </div>
+            <div id="modal-actions" class="space-y-2 pt-2">
+                <button onclick="closeModal()" class="w-full py-3.5 rounded-2xl bg-emerald-900 hover:bg-emerald-850 text-white font-bold text-sm shadow">
+                    Close Window
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Admin Control Center Modal -->
+    <div id="admin-modal" class="hidden fixed inset-0 z-50 bg-emerald-950/85 backdrop-blur-sm flex items-center justify-center p-4">
+        <div class="bg-cream rounded-[2rem] max-w-3xl w-full p-6 sm:p-8 space-y-6 shadow-2xl border-2 border-gold-400 max-h-[90vh] overflow-y-auto">
+            <div class="flex items-center justify-between border-b border-amber-200 pb-4">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-900 text-gold-400 flex items-center justify-center text-lg">
+                        <i class="fa-solid fa-shield-halved"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-display font-extrabold text-xl text-emerald-950">Admin Control Center</h3>
+                        <p class="text-xs text-slate-500">Manage campaign funds, stats, and aid requests</p>
+                    </div>
+                </div>
+                <button onclick="toggleAdminModal()" class="p-2 text-slate-700 hover:text-red-600 font-bold text-lg">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+
+            <!-- Admin Tab Selectors -->
+            <div class="grid grid-cols-2 gap-3" role="tablist">
+                <button type="button" onclick="switchAdminTab('campaigns')" id="admin-tab-btn-campaigns" class="py-3 px-4 rounded-xl text-xs sm:text-sm font-bold bg-emerald-900 text-white shadow transition-all">
+                    Campaign &amp; KPI Manager
+                </button>
+                <button type="button" onclick="switchAdminTab('requests')" id="admin-tab-btn-requests" class="py-3 px-4 rounded-xl text-xs sm:text-sm font-bold bg-cream text-slate-700 border border-slate-300 transition-all">
+                    Aid Requests Inbox (<span id="admin-req-count">1</span>)
+                </button>
+            </div>
+
+            <!-- Tab 1: Campaign & Stats Editor -->
+            <div id="admin-pane-campaigns" class="space-y-4 pt-2">
+                <form id="admin-settings-form" class="space-y-4">
+                    <div class="grid sm:grid-cols-2 gap-4">
+                        <div class="space-y-1">
+                            <label class="block text-xs font-bold text-slate-700 uppercase">Raised Amount ($ USD)</label>
+                            <input type="number" id="admin-raised-input" value="7420" class="w-full rounded-xl bg-white border border-slate-200 text-sm p-3 font-bold text-emerald-950">
+                        </div>
+                        <div class="space-y-1">
+                            <label class="block text-xs font-bold text-slate-700 uppercase">Goal Amount ($ USD)</label>
+                            <input type="number" id="admin-goal-input" value="10000" class="w-full rounded-xl bg-white border border-slate-200 text-sm p-3 font-bold text-emerald-950">
+                        </div>
+                    </div>
+                    <div class="grid sm:grid-cols-3 gap-4">
+                        <div class="space-y-1">
+                            <label class="block text-xs font-bold text-slate-700 uppercase">Total Beneficiaries</label>
+                            <input type="text" id="admin-ben-input" value="6,850+" class="w-full rounded-xl bg-white border border-slate-200 text-sm p-3 font-bold text-emerald-950">
+                        </div>
+                        <div class="space-y-1">
+                            <label class="block text-xs font-bold text-slate-700 uppercase">Boreholes &amp; Wells</label>
+                            <input type="number" id="admin-wells-input" value="13" class="w-full rounded-xl bg-white border border-slate-200 text-sm p-3 font-bold text-emerald-950">
+                        </div>
+                        <div class="space-y-1">
+                            <label class="block text-xs font-bold text-slate-700 uppercase">Online Donors</label>
+                            <input type="text" id="admin-donors-input" value="940+" class="w-full rounded-xl bg-white border border-slate-200 text-sm p-3 font-bold text-emerald-950">
+                        </div>
+                    </div>
+                    <button type="submit" class="w-full py-3.5 rounded-xl bg-gold-500 hover:bg-gold-400 text-emerald-950 font-black text-sm shadow transition-all">
+                        Save &amp; Update Live Website Stats
+                    </button>
+                </form>
+            </div>
+
+            <!-- Tab 2: Aid Requests Inbox -->
+            <div id="admin-pane-requests" class="hidden space-y-4 pt-2">
+                <div class="flex justify-between items-center">
+                    <span class="text-xs font-extrabold uppercase tracking-wider text-slate-500">Submitted Tally Aid Applications</span>
+                    <button type="button" onclick="clearAllAidRequests()" class="text-xs text-red-600 font-bold hover:underline">Clear All</button>
+                </div>
+                <div id="admin-requests-list" class="space-y-3 max-h-64 overflow-y-auto pr-1">
+                    <!-- Populated dynamically -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Logic -->
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Mobile Menu Toggle
+        const mobileMenu = document.getElementById('mobile-menu');
+        document.getElementById('mobile-menu-btn').addEventListener('click', () => mobileMenu.classList.remove('hidden'));
+        document.getElementById('mobile-menu-close').addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Country & Currency Data
+        const countryData = {
+            UG: { name: "Uganda", curr: "UGX", symbol: "USh", min: 37000, presets: [37000, 92500, 185000, 370000, 925000], networks: "MTN MoMo & Airtel Money" },
+            KE: { name: "Kenya", curr: "KES", symbol: "KSh", min: 1300, presets: [1300, 3200, 6500, 13000, 32500], networks: "M-Pesa & Airtel Money" },
+            TZ: { name: "Tanzania", curr: "TZS", symbol: "TSh", min: 26000, presets: [26000, 65000, 130000, 260000, 650000], networks: "M-Pesa, Tigo Pesa & Airtel Money" },
+            RW: { name: "Rwanda", curr: "RWF", symbol: "FRw", min: 13500, presets: [13500, 34000, 68000, 135000, 340000], networks: "MTN MoMo & Airtel Money" },
+            NG: { name: "Nigeria", curr: "NGN", symbol: "₦", min: 16000, presets: [16000, 40000, 80000, 160000, 400000], networks: "OPay, Moniepoint & Bank Transfer" },
+            GH: { name: "Ghana", curr: "GHS", symbol: "GH₵", min: 155, presets: [155, 390, 780, 1550, 3900], networks: "MTN MoMo, Vodafone Cash & AirtelTigo" },
+            ZA: { name: "South Africa", curr: "ZAR", symbol: "R", min: 180, presets: [180, 450, 900, 1800, 4500], networks: "EFT, Capitec Pay & Card" },
+            US: { name: "International (USD)", curr: "USD", symbol: "$", min: 10, presets: [10, 25, 50, 100, 250], networks: "International Cards, PayPal & Wire" },
+            EU: { name: "European Union (EUR)", curr: "EUR", symbol: "€", min: 10, presets: [10, 25, 50, 100, 250], networks: "SEPA Wire, Cards & PayPal" }
+        };
+
+        let currentCountry = 'US';
+        let currentCurrencyConfig = countryData['US'];
+
+        const countrySelect = document.getElementById('donor-country');
+        const minCurrencyLabel = document.getElementById('min-currency-label');
+        const currencyDisplayTag = document.getElementById('currency-display-tag');
+        const currencySymbolPrefix = document.getElementById('currency-symbol-prefix');
+        const customAmountInput = document.getElementById('custom-amount');
+        const presetContainer = document.getElementById('preset-amounts-container');
+        const momoCountryName = document.getElementById('momo-country-name');
+        const momoNetworksDesc = document.getElementById('momo-networks-desc');
+
+        countrySelect.addEventListener('change', (e) => {
+            currentCountry = e.target.value;
+            currentCurrencyConfig = countryData[currentCountry];
+            updateCurrencyUI();
+        });
+
+        function updateCurrencyUI() {
+            minCurrencyLabel.textContent = `${currentCurrencyConfig.symbol}${currentCurrencyConfig.min.toLocaleString()}`;
+            currencyDisplayTag.textContent = `Currency: ${currentCurrencyConfig.name} (${currentCurrencyConfig.curr})`;
+            currencySymbolPrefix.textContent = currentCurrencyConfig.symbol;
+            customAmountInput.min = currentCurrencyConfig.min;
+            customAmountInput.value = currentCurrencyConfig.min;
+            momoCountryName.textContent = currentCurrencyConfig.name;
+            momoNetworksDesc.textContent = currentCurrencyConfig.networks;
+
+            // Render Presets
+            presetContainer.innerHTML = '';
+            currentCurrencyConfig.presets.forEach((val, idx) => {
+                const btn = document.createElement('button');
+                btn.type = 'button';
+                btn.className = `preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base transition-all ${idx === 0 ? 'bg-emerald-900 text-white shadow-md' : 'bg-cream text-slate-800 border-2 border-slate-200 hover:border-emerald-700'}`;
+                btn.textContent = `${currentCurrencyConfig.symbol}${val.toLocaleString()}`;
+                btn.onclick = () => {
+                    document.querySelectorAll('.preset-btn').forEach(b => {
+                        b.className = 'preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base bg-cream text-slate-800 border-2 border-slate-200 hover:border-emerald-700 transition-all';
+                    });
+                    btn.className = 'preset-btn py-3.5 px-3 rounded-2xl font-extrabold text-base bg-emerald-900 text-white shadow-md transition-all';
+                    customAmountInput.value = val;
+                    updateImpactVisualizer();
+                };
+                presetContainer.appendChild(btn);
+            });
+            updateImpactVisualizer();
+            updateCheckoutButtonLabels();
+        }
+
+        customAmountInput.addEventListener('input', updateImpactVisualizer);
+
+        function setAmount(valMultiplier) {
+            // Helper for quick presets
+            const idx = [10, 25, 50, 100, 250].indexOf(valMultiplier);
+            if (idx !== -1 && currentCurrencyConfig.presets[idx]) {
+                customAmountInput.value = currentCurrencyConfig.presets[idx];
+            } else {
+                customAmountInput.value = valMultiplier;
+            }
+            updateImpactVisualizer();
+        }
+
+        function quickSelectTenDollar() {
+            currentCountry = 'US';
+            countrySelect.value = 'US';
+            currentCurrencyConfig = countryData['US'];
+            updateCurrencyUI();
+            customAmountInput.value = 10;
+            updateImpactVisualizer();
+            document.getElementById('donate').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function selectCause(causeName) {
+            document.getElementById('donation-cause').value = causeName;
+            document.getElementById('donate').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function updateImpactVisualizer() {
+            const amount = parseFloat(customAmountInput.value) || currentCurrencyConfig.min;
+            const cause = document.getElementById('donation-cause').value;
+            const textEl = document.getElementById('impact-projection-text');
+
+            let impactMsg = `Your contribution of ${currentCurrencyConfig.symbol}${amount.toLocaleString()} toward "${cause}" directly supports our community projects and vulnerable families.`;
+            if (amount >= (currentCurrencyConfig.min * 5)) {
+                impactMsg = `Generous gift! This helps fund a larger share of ${cause}, providing substantial relief and materials.`;
+            }
+            textEl.textContent = impactMsg;
+        }
+
+        function updateCheckoutButtonLabels() {
+            const amt = customAmountInput.value || currentCurrencyConfig.min;
+            const formatted = `${currentCurrencyConfig.symbol}${parseInt(amt).toLocaleString()}`;
+            document.getElementById('momo-btn-text').textContent = `Donate ${formatted} via Mobile Money`;
+            document.getElementById('card-btn-text').textContent = `Complete Secure Donation (${formatted})`;
+        }
+
+        customAmountInput.addEventListener('input', updateCheckoutButtonLabels);
+
+        // Payment Tab Switcher
+        const payTabs = document.querySelectorAll('.pay-tab');
+        const payPanes = document.querySelectorAll('.pay-pane');
+
+        payTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                payTabs.forEach(t => {
+                    t.classList.remove('bg-emerald-900', 'text-white', 'shadow');
+                    t.classList.add('bg-cream', 'text-slate-700', 'border', 'border-slate-300');
+                });
+                tab.classList.remove('bg-cream', 'text-slate-700', 'border', 'border-slate-300');
+                tab.classList.add('bg-emerald-900', 'text-white', 'shadow');
+
+                payPanes.forEach(pane => pane.classList.add('hidden'));
+                const targetPane = document.getElementById(`pane-${tab.dataset.tab}`);
+                if (targetPane) targetPane.classList.remove('hidden');
+            });
+        });
+
+        // Frequency Selector Toggle
+        document.querySelectorAll('.freq-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.freq-btn').forEach(b => {
+                    b.classList.remove('bg-emerald-900', 'text-white', 'shadow-md');
+                    b.classList.add('bg-cream', 'text-slate-700', 'border', 'border-slate-300');
+                });
+                btn.classList.remove('bg-cream', 'text-slate-700', 'border', 'border-slate-300');
+                btn.classList.add('bg-emerald-900', 'text-white', 'shadow-md');
+            });
+        });
+
+        // Copy Text Helper
+        function copyText(elementId) {
+            const text = document.getElementById(elementId).innerText;
+            const textarea = document.createElement('textarea');
+            textarea.value = text;
+            document.body.appendChild(textarea);
+            textarea.select();
+            document.execCommand('copy');
+            document.body.removeChild(textarea);
+            alertUserToast(`Copied to clipboard: ${text}`);
+        }
+
+        function alertUserToast(msg) {
+            const div = document.createElement('div');
+            div.className = 'fixed bottom-20 right-6 z-50 bg-emerald-950 text-white px-4 py-3 rounded-2xl shadow-2xl text-xs font-bold border border-gold-400';
+            div.innerHTML = `<i class="fa-solid fa-check text-gold-400 mr-2"></i> ${msg}`;
+            document.body.appendChild(div);
+            setTimeout(() => div.remove(), 3000);
+        }
+
+        // Checkout Handlers
+        document.getElementById('momo-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('momo-name').value;
+            const phone = document.getElementById('momo-phone').value;
+            const amt = customAmountInput.value;
+            const cause = document.getElementById('donation-cause').value;
+            showSuccessModal("Mobile Money Prompt Sent!", `Assalamu Alaikum ${name}, we have triggered a payment prompt of ${currentCurrencyConfig.symbol}${parseInt(amt).toLocaleString()} to ${phone} for ${cause}. Please approve on your phone.`);
+        });
+
+        document.getElementById('card-checkout-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('card-name').value;
+            const amt = customAmountInput.value;
+            showSuccessModal("Card Payment Successful!", `Thank you ${name}! Your card payment of ${currentCurrencyConfig.symbol}${parseInt(amt).toLocaleString()} has been processed securely.`);
+        });
+
+        function simulatePayPalCheckout() {
+            const amt = customAmountInput.value;
+            showSuccessModal("PayPal Checkout Completed", `Your PayPal contribution of ${currentCurrencyConfig.symbol}${parseInt(amt).toLocaleString()} was received successfully. May Allah reward you abundantly.`);
+        }
+
+        function showSuccessModal(title, desc) {
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('modal-desc').textContent = desc;
+            document.getElementById('success-modal').classList.remove('hidden');
+        }
+
+        function closeModal() {
+            document.getElementById('success-modal').classList.add('hidden');
+        }
+
+        // Partner & Volunteer Form Handler
+        document.getElementById('partner-volunteer-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('pv-name').value;
+            const role = document.getElementById('pv-role').value;
+            showSuccessModal("Registration Received!", `Thank you ${name}! Your application to join as a ${role} has been logged. Our coordinator will contact you shortly.`);
+        });
+
+        // Tally Aid Request Form & File Upload
+        let uploadedFiles = [];
+        let submittedAidRequests = [
+            { id: "REQ-2026-4892", name: "Joweria Namubiru", type: "Individual", mobile: "+256 772 123456", district: "Mukono", reason: "Single mother seeking food pack and bedding support for 4 orphans.", date: "Today, 09:42 AM", status: "Pending" }
+        ];
+
+        function handleFileSelect(event) {
+            const files = event.target.files;
+            const display = document.getElementById('file-list-display');
+            for (let file of files) {
+                uploadedFiles.push(file.name);
+            }
+            display.innerHTML = uploadedFiles.map(f => `<p><i class="fa-solid fa-file-lines mr-1"></i> ${f}</p>`).join('');
+        }
+
+        document.getElementById('aid-request-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const name = document.getElementById('req-name').value;
+            const mobile = document.getElementById('req-mobile').value;
+            const district = document.getElementById('req-district').value;
+            const reason = document.getElementById('req-reason').value;
+            const type = document.querySelector('input[name="req-applicant-type"]:checked').value;
+            
+            const reqId = 'REQ-2026-' + Math.floor(1000 + Math.random() * 9000);
+            
+            submittedAidRequests.unshift({
+                id: reqId,
+                name: name,
+                type: type,
+                mobile: mobile,
+                district: district,
+                reason: reason,
+                date: "Just now",
+                status: "Pending"
+            });
+            updateAdminRequestsCount();
+            
+            showSuccessModal("Aid Request Submitted Successfully!", `Reference ID: ${reqId}. Thank you ${name}. Our committee will review your application and reach out via mobile (${mobile}).`);
+            document.getElementById('aid-request-form').reset();
+            uploadedFiles = [];
+            document.getElementById('file-list-display').innerHTML = '';
+        });
+
+        // Admin Modal Controls
+        function toggleAdminModal() {
+            const modal = document.getElementById('admin-modal');
+            modal.classList.toggle('hidden');
+            renderAdminRequestsList();
+        }
+
+        function switchAdminTab(tabName) {
+            const campBtn = document.getElementById('admin-tab-btn-campaigns');
+            const reqBtn = document.getElementById('admin-tab-btn-requests');
+            const campPane = document.getElementById('admin-pane-campaigns');
+            const reqPane = document.getElementById('admin-pane-requests');
+
+            if (tabName === 'campaigns') {
+                campBtn.className = "py-3 px-4 rounded-xl text-xs sm:text-sm font-bold bg-emerald-900 text-white shadow transition-all";
+                reqBtn.className = "py-3 px-4 rounded-xl text-xs sm:text-sm font-bold bg-cream text-slate-700 border border-slate-300 transition-all";
+                campPane.classList.remove('hidden');
+                reqPane.classList.add('hidden');
+            } else {
+                reqBtn.className = "py-3 px-4 rounded-xl text-xs sm:text-sm font-bold bg-emerald-900 text-white shadow transition-all";
+                campBtn.className = "py-3 px-4 rounded-xl text-xs sm:text-sm font-bold bg-cream text-slate-700 border border-slate-300 transition-all";
+                reqPane.classList.remove('hidden');
+                campPane.classList.add('hidden');
+                renderAdminRequestsList();
+            }
+        }
+
+        document.getElementById('admin-settings-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            const raised = document.getElementById('admin-raised-input').value;
+            const goal = document.getElementById('admin-goal-input').value;
+            const ben = document.getElementById('admin-ben-input').value;
+            const wells = document.getElementById('admin-wells-input').value;
+            const donors = document.getElementById('admin-donors-input').value;
+
+            alertUserToast("Admin Settings Saved Successfully!");
+            toggleAdminModal();
+        });
+
+        function updateAdminRequestsCount() {
+            document.getElementById('admin-req-count').textContent = submittedAidRequests.length;
+        }
+
+        function renderAdminRequestsList() {
+            const listContainer = document.getElementById('admin-requests-list');
+            updateAdminRequestsCount();
+            if (submittedAidRequests.length === 0) {
+                listContainer.innerHTML = `<p class="text-xs text-slate-400 text-center py-6">No aid requests submitted yet.</p>`;
+                return;
+            }
+            listContainer.innerHTML = submittedAidRequests.map((req, idx) => `
+                <div class="p-3.5 rounded-2xl bg-white border border-slate-200 text-xs space-y-2">
+                    <div class="flex justify-between items-center font-bold text-emerald-950">
+                        <span>${req.id} • ${req.name} (${req.type})</span>
+                        <span class="px-2 py-0.5 rounded bg-amber-100 text-amber-900">${req.status}</span>
+                    </div>
+                    <p class="text-slate-600"><strong>District:</strong> ${req.district} | <strong>Mobile:</strong> ${req.mobile}</p>
+                    <p class="text-slate-700 italic">"${req.reason}"</p>
+                    <div class="flex justify-between items-center pt-1 border-t border-slate-100 text-[0.7rem] text-slate-400">
+                        <span>${req.date}</span>
+                        <div class="space-x-2">
+                            <button onclick="approveRequest(${idx})" class="text-emerald-700 font-bold hover:underline">Approve</button>
+                            <button onclick="deleteRequest(${idx})" class="text-red-600 font-bold hover:underline">Delete</button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function approveRequest(idx) {
+            submittedAidRequests[idx].status = "Approved";
+            renderAdminRequestsList();
+            alertUserToast(`Request ${submittedAidRequests[idx].id} approved.`);
+        }
+
+        function deleteRequest(idx) {
+            submittedAidRequests.splice(idx, 1);
+            renderAdminRequestsList();
+            alertUserToast("Aid request removed.");
+        }
+
+        function clearAllAidRequests() {
+            submittedAidRequests = [];
+            renderAdminRequestsList();
+            alertUserToast("All aid requests cleared.");
+        }
+
+        // Growth & Impact Chart Visualizer Data & Rendering
+        const growthMetricsData = {
+            beneficiaries: {
+                subtitle: "Individuals reached each year across clean water wells, sickle cell support, food packs, orphan care, and bedding drives.",
+                years: [
+                    { year: "2022", value: 620, displayValue: "620", yoy: "Year 1", milestone: "Completed first 2 village boreholes & small food drives." },
+                    { year: "2023", value: 980, displayValue: "980", yoy: "+58% YoY", milestone: "Added 2 water wells, Madrasa books & 450 food parcels." },
+                    { year: "2024", value: 1450, displayValue: "1,450", yoy: "+48% YoY", milestone: "Launched Sickle Cell Care Fund & schoolgirl sanitary pad kits." },
+                    { year: "2025", value: 1820, displayValue: "1,820", yoy: "+26% YoY", milestone: "Expanded mobile money giving & delivered 720 Qurbani packs." },
+                    { year: "2026", value: 1980, displayValue: "1,980+", yoy: "+9% YTD", milestone: "13 cumulative boreholes, 28 sickle cell patients & 9 partners." }
+                ]
+            },
+            projects: {
+                subtitle: "Annual relief items delivered: food & Qurbani packs, sanitary pad kits, bedding sets, boreholes, and medical cases.",
+                years: [
+                    { year: "2022", value: 310, displayValue: "310", yoy: "Year 1", milestone: "2 boreholes, 260 staple food packs & 48 blankets." },
+                    { year: "2023", value: 540, displayValue: "540", yoy: "+74% YoY", milestone: "2 new water wells, 450 food parcels & 1 Madrasa renovation." },
+                    { year: "2024", value: 890, displayValue: "890", yoy: "+65% YoY", milestone: "520 food/Eid packs, 360 pad kits & 9 sickle cell treatments." },
+                    { year: "2025", value: 1080, displayValue: "1,080", yoy: "+21% YoY", milestone: "610 food packs, 455 pad kits, 3 boreholes & 11 medical cases." },
+                    { year: "2026", value: 1120, displayValue: "1,120+", yoy: "+4% YTD", milestone: "605 pad kits, 500+ food packs, 4 boreholes & 8 medical surgeries." }
+                ]
+            },
+            community: {
+                subtitle: "Active online micro-donors ($10 / €10 contributors) and local field volunteers supporting our grassroots work.",
+                years: [
+                    { year: "2022", value: 95, displayValue: "95", yoy: "Year 1", milestone: "80 early online supporters & 15 founding community volunteers." },
+                    { year: "2023", value: 175, displayValue: "175", yoy: "+84% YoY", milestone: "148 recurring donors plus 27 active local volunteers." },
+                    { year: "2024", value: 240, displayValue: "240", yoy: "+37% YoY", milestone: "195 online donors, 45 field volunteers & 4 local partner groups." },
+                    { year: "2025", value: 265, displayValue: "265", yoy: "+10% YoY", milestone: "200 online supporters & 65 volunteers across 6 districts." },
+                    { year: "2026", value: 250, displayValue: "250+", yoy: "Active", milestone: "940+ cumulative donors, 85+ active volunteers & 9 grassroots partners." }
+                ]
+            }
+        };
+
+        function renderGrowthVisualizer(metricKey) {
+            const data = growthMetricsData[metricKey];
+            document.getElementById('growth-chart-title').textContent = `Annual ${metricKey === 'beneficiaries' ? 'Beneficiaries Reached' : metricKey === 'projects' ? 'Projects & Aid Volumes' : 'Online Donor & Volunteer Growth'} (2022–2026)`;
+            document.getElementById('growth-chart-subtitle').textContent = data.subtitle;
+
+            const container = document.getElementById('growth-bars-container');
+            container.innerHTML = '';
+
+            const maxVal = Math.max(...data.years.map(y => y.value));
+
+            data.years.forEach(item => {
+                const heightPercent = Math.max(25, Math.round((item.value / maxVal) * 100));
+                const col = document.createElement('div');
+                col.className = 'bg-cream rounded-2xl p-4 border border-slate-200 flex flex-col justify-between space-y-3 relative group hover:border-emerald-700 transition-all';
+                col.innerHTML = `
+                    <div class="flex items-center justify-between">
+                        <span class="font-display font-black text-emerald-950 text-lg">${item.year}</span>
+                        <span class="text-[0.68rem] font-bold px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800">${item.yoy}</span>
+                    </div>
+                    <div class="h-32 flex items-end justify-center py-2">
+                        <div class="w-12 bg-gradient-to-t from-emerald-900 to-emerald-600 rounded-t-xl transition-all duration-500 group-hover:scale-y-105 relative flex items-center justify-center" style="height: ${heightPercent}%">
+                            <span class="absolute -top-7 text-xs font-black text-emerald-950 whitespace-nowrap">${item.displayValue}</span>
+                        </div>
+                    </div>
+                    <div class="border-t border-slate-200 pt-2">
+                        <p class="text-[0.72rem] text-slate-600 leading-snug">${item.milestone}</p>
+                    </div>
+                `;
+                container.appendChild(col);
+            });
+        }
+
+        document.querySelectorAll('.growth-metric-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                document.querySelectorAll('.growth-metric-btn').forEach(b => {
+                    b.classList.remove('bg-emerald-900', 'text-white', 'shadow-sm');
+                    b.classList.add('bg-cream', 'text-slate-700', 'border', 'border-slate-200');
+                });
+                btn.classList.remove('bg-cream', 'text-slate-700', 'border', 'border-slate-200');
+                btn.classList.add('bg-emerald-900', 'text-white', 'shadow-sm');
+                renderGrowthVisualizer(btn.dataset.growthMetric);
+            });
+        });
+
+        // Initialize Default Currency and Growth Chart on Load
+        window.onload = function() {
+            updateCurrencyUI();
+            renderGrowthVisualizer('beneficiaries');
+        };
+    </script>
+</body>
+</html>
+```eof
+
+I have updated your complete `index.html` file on the right-hand document editor. Let me know if you would like any further adjustments!
